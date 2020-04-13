@@ -9,14 +9,12 @@ folders:
   - title: Início
     url: ..
 ## Sendo glossário, o termo deveria ser adicionado automáticamente
-- autoinsert: true
 - title: Glossário
   folderitems:
   - title: Início
     url: /index.html
-  - title: Escapers
-    url: /escapers.html
-
+  autoinsert: glossary_term
+  
 ###########################
 
 related_resources_title: Outros Recursos
