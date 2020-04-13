@@ -38,6 +38,18 @@ navbar_style: lighttheme-bluegray
 
 image_path: /docs/images/
 
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: '/:name/'
+    tag: '/tag/:name/'
+
+excerpt_separator: <!--more-->
+
+permalink: /:categories/:title/
 
 markdown: kramdown
 kramdown:
@@ -106,6 +118,8 @@ exclude:
 
 gems:
   - algoliasearch-jekyll
+  - jekyll-archives
+
 
 ########## UI text ###############
 

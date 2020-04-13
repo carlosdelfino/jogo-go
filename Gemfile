@@ -19,7 +19,8 @@ gem 'github-pages'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'algoliasearch-jekyll', '~> 0.8.0'
-#  gem "jekyll-feed", "~> 0.11"
+  gem 'jekyll-archives'
+  #  gem "jekyll-feed", "~> 0.11"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
