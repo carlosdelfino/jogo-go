@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>{{page.title}} | {{site.uistring.title}}</title>
     <base target="_self">
-    <meta name="description" content="{% if page.content %}{{ page.content | truncatewords: 30 | strip_html }} {% else %}{{site.uistring.description}}{% endif %}" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | truncatewords: 30 | strip_html }}{% elsif page.content %}{{ page.content | truncatewords: 30 | strip_html }} {% else %}{{site.uistring.description}}{% endif %}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google" value="notranslate">
     <link rel="icon"  type="image/x-icon" href="favicon.ico">
@@ -14,15 +14,15 @@
 
 
     <!--stylesheets / link tags loaded here-->
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/sidebar.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/{{site.highlighting_css}}.css" />
-    <link rel="stylesheet" href="assets/css/{{site.navbar_style}}.css" />
-    <link rel="stylesheet" href="assets/css/customstyles.css" />
+    <link rel="stylesheet" type="text/css" href="{{site.url}}{{site.baseurl}}/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/sidebar.css" />
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/{{site.highlighting_css}}.css" />
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/{{site.navbar_style}}.css" />
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/customstyles.css" />
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/navgoco.jquery.min.js"></script>
+    <script src="{{site.url}}{{site.baseurl}}/assets/js/jquery.min.js"></script>
+    <script src="{{site.url}}{{site.baseurl}}/assets/js/navgoco.jquery.min.js"></script>
 
 </head>
 <body data-spy="scroll" data-target="nav#toc" data-offset="20">
@@ -47,7 +47,7 @@
                     <a class="navbar-brand" href="index.html">
                     <img class="navbar-logo" src="{{site.navbar_logo}}"/>
                     {% else %}
-                    <a class="fa fa-home fa-lg navbar-brand" href="index.html">
+                    <a class="fa fa-home fa-lg navbar-brand" href="{{site.url}}{{site.baseurl}}/index.html">
                     &nbsp;<span class="projectTitle"> {{site.uistring.title}}</span>
                     {% endif %}
                 </a>
@@ -149,9 +149,9 @@
 
 <!--scripts loaded here-->
 
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/toc.js"></script>
-<script src="assets/js/anchor.min.js"></script>
+<script src="{{site.url}}{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
+<script src="{{site.url}}{{site.baseurl}}/assets/js/toc.js"></script>
+<script src="{{site.url}}{{site.baseurl}}/assets/js/anchor.min.js"></script>
 <script>
     $( document ).ready(function() {
         $("#docnavsidebar").navgoco({
@@ -173,7 +173,7 @@
     });
 
 </script>
-<script src="assets/js/customscripts.js"></script>
+<script src="{{site.url}}{{site.baseurl}}/assets/js/customscripts.js"></script>
 
 <script>
     $(document).ready(function() {
