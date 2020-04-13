@@ -4,13 +4,11 @@ layout: default
  <section id="main" role="main">
 	<div class="wrap">
 		<div class="archive-wrap">
-			<div class="page-content">
-				<div class="section-title">
-					<h2><span>{{ page.type }} => '{{ page.title }}'</span></h2>
-			</div>
 			<div class="masonrygrid row listrecent">
 					{% for post in site.posts %}
+					{% if post.category == page.title %}
 					{% include grids/post-grid.html %}
+					{% endif %}
 					{% endfor %}
 			</div>
 			</div><!-- /.page-content -->
