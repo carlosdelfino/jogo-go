@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Um tutorial em português para se aprender a jogar GO
 baseurl: "/jogo-go" # the subpath of your site, e.g. /blog
 language: portuguese
-url: "https://carlosdelfino.eti.br"
+url: "http://carlosdelfino.eti.br"
 
 github_editme_path: https://github.com/carlosdelfino/jogo-go/blob/master/
 
