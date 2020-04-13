@@ -1,6 +1,5 @@
 ---
 title: Glossário
-permalink: glossario/index.html
 sidebar: glossary
 category: glossario
 ---

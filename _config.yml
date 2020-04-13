@@ -40,7 +40,6 @@ image_path: /docs/images/
 
 jekyll-archives:
   enabled:
-    - categories
     - tags
   layout: archive
   permalinks:
@@ -118,7 +117,7 @@ exclude:
 
 gems:
   - algoliasearch-jekyll
-  - jekyll-archives
+#  - jekyll-archives
 
 
 ########## UI text ###############
