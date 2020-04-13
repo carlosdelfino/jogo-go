@@ -1,7 +1,7 @@
 ---
 title: Escapers
 permalink: glossario/escapers.html
-sidebar: glossario
+sidebar: glossary
 product: Glossário
 ---
 
