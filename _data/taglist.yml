@@ -1,9 +1,0 @@
-sidebarTitle: Tags
-
-folders:
-- title: Documentation tags
-  folderitems:
-
-  - title: Troubleshooting
-    tag_name: troubleshooting
-    url: /tag-troubleshooting.html

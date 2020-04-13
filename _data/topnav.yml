@@ -3,7 +3,7 @@
 navbar_singleitems:
 - items:
     - title: Github Repo
-      url: https://github.com/carlosdelfino/como-jogar-go
+      url: https://github.com/carlosdelfino/jogo-go
 
 #Topnav dropdowns
 navbar_dropdowns:
@@ -19,13 +19,11 @@ navbar_dropdowns:
           url: 
         - title: Android
           url: 
-    - title: Tags
-      folderitems:
-        - title: 
-          url: 
     - title: Outros Sites
       folderitems:
         - title: The Interactive Way To Go
           url: http://playgo.to/iwtg/en/
         - title: MaxGos
           url: https://www.jeudego.org/maxiGos/_maxigos/en/documentation.php
+        - title: Mais sites aqui
+          url: /links
