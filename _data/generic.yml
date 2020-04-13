@@ -34,6 +34,10 @@ folders:
   folderitems:
   - title: Início
     url: chat_e_grupos
+- title: Contatos
+  folderitems:
+  - title: Contatos por País
+    url: contatos
 ###########################
 
 related_resources_title: Outros Recursos
