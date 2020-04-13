@@ -12,8 +12,11 @@ folders:
 - title: Chats e Grupos
   folderitems:
   - title: Início
-    url: chat%20e%20grupos
-  
+    url: chat_e_grupos
+- title: Contatos
+  folderitems:
+  - title: Contatos por País
+    url: contatos
 ###########################
 
 related_resources_title: Outros Recursos

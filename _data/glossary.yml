@@ -8,13 +8,18 @@ folders:
   folderitems:
   - title: Início
     url: ..
-## Sendo glossário, o termo deveria ser adicionado automáticamente
 - title: Glossário
   folderitems:
   - title: Início
-    url: /index.html
-  autoinsert: glossary_term
-  
+    url: glossario
+- title: Chats e Grupos
+  folderitems:
+  - title: Início
+    url: chat_e_grupos
+- title: Contatos
+  folderitems:
+  - title: Contatos por País
+    url: contatos
 ###########################
 
 related_resources_title: Outros Recursos
