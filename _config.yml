@@ -33,7 +33,7 @@ kramdown:
 twitter_username: go-brasil
 github_username:  go-brasil
 
-theme: millidocs
+#theme: millidocs
 #plugins:
 #  - jekyll-feed
 
