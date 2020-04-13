@@ -21,12 +21,9 @@
 <!-- end search bar -->
 <ul id="docnavsidebar" class="docnav">
     {% for folder in sidebar.folders %}
-    {% if folder.autoinsert %}
-    {% else %}
     <li class="level1"><a href="#">{{ folder.title }}</a>
         <ul style="display:none">
             {% for folderitem in folder.folderitems %}
-
             {% if folderitem.title %}
             {% if page.url == folderitem.url %}
             <li class="level1items open"><a href="{{folderitem.url | remove: "/" }}">{{folderitem.title}}</a></li>
@@ -81,9 +78,24 @@
             {% endfor %}
 
             {% endfor %}
+            {% if folder.autoinsert %}
+            {% for post in site.posts %}
+              {% if post.type == folder.autoinsert %}
+            {% if post.title %}
+            {% if page.url == post.url %}
+            <li class="level1items open"><a href="{{site.baseurl}}{{post.url }}">{{post.title}}</a></li>
+            {% elsif post.url contains "http://" or post.url contains "https://" %}
+            <li class="level1items"><a  class="noCrossRef" href="{{post.url }}">{{post.title}}</a></li>
+            {% else %}
+            <li class="level1items"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+            {% endif %}
+            {% endif %}
+
+              {% endif %}
+            {% endfor %}
+            {% endif %}
         </ul>
 
-        {% endif %}
         {% endfor %}
 
     </li>
