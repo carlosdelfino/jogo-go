@@ -26,6 +26,10 @@ folders:
           - title: Sub-sublevel 1
             url: /subsublevel1.html
 
+- title: Glossário
+  folderitems:
+  - title: Início
+    url: glossario
 ###########################
 
 related_resources_title: Outros Recursos
