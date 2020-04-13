@@ -115,8 +115,13 @@ exclude:
   - index_de.md
   - index_ja.md
 
-gems:
+plugins:
   - algoliasearch-jekyll
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-feed
+
 #  - jekyll-archives
 
 
