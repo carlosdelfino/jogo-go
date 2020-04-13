@@ -22,11 +22,11 @@ title: Como jogar Go
 email: go-game@carlosdelfino.eti.br
 description: >- # this means to ignore newlines until "baseurl:"
   Um tutorial em português para se aprender a jogar GO
-baseurl: "/tutorial-jogo-go" # the subpath of your site, e.g. /blog
+baseurl: "/jogo-go" # the subpath of your site, e.g. /blog
 language: portuguese
 url: "https://carlosdelfino.eti.br"
 
-github_editme_path: https://github.com/carlosdelfino/tutorial-jogo-go/blob/gh-pages/
+github_editme_path: https://github.com/carlosdelfino/jogo-go/blob/master/
 
 image_path: docs/images/
 highlighter: rouge
