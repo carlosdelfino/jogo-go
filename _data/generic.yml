@@ -30,6 +30,10 @@ folders:
   folderitems:
   - title: Início
     url: glossario
+- title: Chats e Grupos
+  folderitems:
+  - title: Início
+    url: chat%20e%20grupos
 ###########################
 
 related_resources_title: Outros Recursos

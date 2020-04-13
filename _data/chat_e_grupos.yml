@@ -1,0 +1,30 @@
+sidebarTitle: Chat e Grupos
+owner: carlosdelfino
+folders:
+- title: Como Jogar Go
+  folderitems:
+  - title: Início
+    url: ..
+- title: Glossário
+  folderitems:
+  - title: Início
+    url: glossario
+- title: Chats e Grupos
+  folderitems:
+  - title: Início
+    url: chat%20e%20grupos
+  
+###########################
+
+related_resources_title: Outros Recursos
+
+related_resources_list:
+
+- title: Outros Idiomas
+  url: outros.html
+
+- title: Jekyll
+  url: http://jekyllrb.com
+
+- title: Github
+  url: http://github.com
