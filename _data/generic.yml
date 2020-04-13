@@ -1,5 +1,5 @@
-sidebarTitle: Generic sidebar
-owner: tomjohnson1492
+sidebarTitle: Barra Geral
+owner: carlosdelfino
 
 ## Keep this commented out content because it shows the YAML model for the sidebar.
 
@@ -25,7 +25,6 @@ folders:
 
           - title: Sub-sublevel 1
             url: /subsublevel1.html
-
 
 ###########################
 
