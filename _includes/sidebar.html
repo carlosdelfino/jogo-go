@@ -21,6 +21,8 @@
 <!-- end search bar -->
 <ul id="docnavsidebar" class="docnav">
     {% for folder in sidebar.folders %}
+    {% if folder.autoinsert %}
+    {% else %}
     <li class="level1"><a href="#">{{ folder.title }}</a>
         <ul style="display:none">
             {% for folderitem in folder.folderitems %}
@@ -81,6 +83,7 @@
             {% endfor %}
         </ul>
 
+        {% endif %}
         {% endfor %}
 
     </li>

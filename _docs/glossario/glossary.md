@@ -1,6 +1,6 @@
 ---
 title: Glossário
-permalink: glossario
-sidebar: generic
+permalink: glossario/index.html
+sidebar: glossary
 product: Glossário
 ---
