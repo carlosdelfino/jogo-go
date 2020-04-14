@@ -5,28 +5,12 @@ owner: carlosdelfino
 
 folders:
 - title: Como Jogar Go
+  autoinsert: regra_item
   folderitems:
   - title: Início
     url: /index.html
-
-  - title: Sample 1 really long title that will wrap
-    url: /sample1.html
-
-    subfolders:
-    - title: Second level deep
-      subfolderitems:
-
-      - title: Sublevel 1
-        url: /sublevel1.html
-
-        subsubfolders:
-        - title: Third level deep
-          subsubfolderitems:
-
-          - title: Sub-sublevel 1
-            url: /subsublevel1.html
-
-- title: Glossário
+- title: Glossário	    
+  autoinsert: glossary_term
   folderitems:
   - title: Início
     url: glossario

@@ -2,7 +2,7 @@
 title: Sandbagging (Ensacando Areia)
 layout: glossary
 category: glossario
-sidebar: glossary
+sidebar: generic
 type: glossary_term
 ---
 

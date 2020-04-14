@@ -1,0 +1,16 @@
+{% assign level = include.level | default: 1 %}
+{% if include.folder.autoinsert %}
+   {% for post in site.posts %}
+      {% if post.type == include.folder.autoinsert %}
+         {% if post.title %}
+            {% if page.url == post.url %}
+            <li class="level{{level}}items open"><a href="{{site.baseurl}}{{post.url }}">{{post.title}}</a></li>
+            {% elsif post.url contains "http://" or post.url contains "https://" %}
+            <li class="level{{level}}items"><a  class="noCrossRef" href="{{post.url }}">{{post.title}}</a></li>
+            {% else %}
+            <li class="level{{level}}items"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+            {% endif %}
+         {% endif %}
+      {% endif %}
+   {% endfor %}
+{% endif %}

@@ -1,6 +1,6 @@
 ---
 title: Glossário
-sidebar: glossary
+sidebar: generic
 category: glossario
 ---
 
