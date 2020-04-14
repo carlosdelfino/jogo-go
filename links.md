@@ -10,3 +10,4 @@ category: links
 * https://senseis.xmp.net/?RulesOfGo
 * http://playgo.to/index-e.html
 * http://playgo.to/iwtg/en/
+* https://sabaki.yichuanshen.de/
