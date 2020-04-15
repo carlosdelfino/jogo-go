@@ -36,3 +36,5 @@ related_resources_list:
 
 - title: Github
   url: http://github.com
+- title: Feed
+  url: feed.xml
